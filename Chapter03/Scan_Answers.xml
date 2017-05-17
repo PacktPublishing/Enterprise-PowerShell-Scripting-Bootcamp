@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<ScriptAnswers>
+  
+  <!-- This section enables and disables features in the script -->
+  <!-- To Enable Logging For Each Step, Set To True. To Disable Logging, Set to False -->
+  <verboselog id="False"></verboselog>
+  <!-- Scan Disks -->
+  <scndisks id="True"></scndisks>
+  <!-- Scan Scheduled Tasks -->
+  <scnschtsks id="True"></scnschtsks>
+  <!-- Scan Processes -->
+  <scnproc id="True"></scnproc>
+  <!-- Scan Services -->
+  <scnsvcs id="True"></scnsvcs>
+  <!-- Scan Software -->
+  <scnsoft id="True"></scnsoft>
+  <!-- Scan User Profiles -->
+  <scnuprof id="True"></scnuprof>
+  <!-- Scan Windows Features -->
+  <scnwfeat id="True"></scnwfeat>
+  <!-- Scan Files -->
+  <scnfls id="True"></scnfls>
+  <!-- Scan Windows Updates -->
+  <scnwupd id="True"></scnwupd>
+
+</ScriptAnswers>

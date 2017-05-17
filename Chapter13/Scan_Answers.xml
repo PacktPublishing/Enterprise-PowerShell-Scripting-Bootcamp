@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<ScriptAnswers>
+
+  <!-- System Configuration -->
+  <afd id="5AFIAQgBYACYAXgBRAC4AUgA5AF"></afd>
+  <salt id="NABFAEIASgAzADsAOgBnAHEAagBxAGgAJgBcAH4AZgBRAD0ARAAzACEAZwAiACYATQBuAGwAWABzAHkA"></salt>
+  <init id="ZgA/ADoAbQBGAFMAewAjAHcAMgBYAGQALwBYACEAVgB4AHEARABVAHAANwBgACQAeAAqAD0AbgBnADEA"></init>
+
+  <!-- Logging Settings -->
+  <logloc id=".\Logs\"></logloc>
+  <verboselog id="True"></verboselog>
+  <filelog id="False"></filelog>
+  <evntlog id="False"></evntlog>
+  <csvunc id="\\localhost\CSVFiles\"></csvunc>
+
+  <!-- This section enables and disables features in the script -->
+  <!-- Scan Disks -->
+  <scndisks id="True"></scndisks>
+  <!-- Scan Scheduled Tasks -->
+  <scnschtsks id="True"></scnschtsks>
+  <!-- Scan Processes -->
+  <scnproc id="True"></scnproc>
+  <!-- Scan Services -->
+  <scnsvcs id="True"></scnsvcs>
+  <!-- Scan Software -->
+  <scnsoft id="True"></scnsoft>
+  <!-- Scan User Profiles -->
+  <scnuprof id="True"></scnuprof>
+  <!-- Scan Windows Features -->
+  <scnwfeat id="True"></scnwfeat>
+  <!-- Scan Files -->
+  <scnfls id="True"></scnfls>
+
+  <!-- Search Locations -->
+  <scnloc id="c:\Program Files\"></scnloc>
+  <scnloc id="c:\temp\"></scnloc>
+  <scnloc id="c:\Windows\System32\"></scnloc>  
+
+  <!-- Kill File Location -->
+  <killfile id="c:\temp\KILL_SERVER_SCAN.NOW"></killfile>
+
+  <!-- Search Extensions -->
+  <srext id=".txt"></srext>
+  <srext id=".log"></srext>
+  <srext id=".xml"></srext>
+  <srext id=".ps1"></srext>
+  <srext id=".bat"></srext>
+
+  <!-- File Search Data -->
+  <srterm id="cKvxEgHvcvIYa5jsVdirKA=="></srterm>
+  <srterm id="tyvk3b7c6JaWlquqM7fFIQ=="></srterm>
+  <srterm id="TlJeUbmv3UzDO+BdV2yb2g=="></srterm>
+  
+  <!-- File Ignore List -->
+  <flign id="ApnDatabase.xml"></flign>
+
+  <!-- Search Ignore List -->
+  <srign id=""></srign>
+
+  <!-- Built-in User List -->
+  <blst id="NETWORK SERVICE"></blst>
+  <blst id="LOCAL SERVICE"></blst>
+  <blst id="SYSTEM"></blst>
+
+</ScriptAnswers>

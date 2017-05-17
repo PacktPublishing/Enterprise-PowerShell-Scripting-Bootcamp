@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+
+<WindowsFeatures>
+
+  <!-- Core Server Roles -->
+  <feature id="6" name="File Services - Role Services (6)"></feature>
+  <feature id="10" name="AD DS - Role Services (10)"></feature>
+  <feature id="3" name="Streaming Media - Role Services (3)"></feature>
+  <feature id="8" name="ADFS - Role Services (8)"></feature>
+  <feature id="18" name="Remote Desktop Services - Role Services (18)"></feature>
+  <feature id="322" name="Remote Desktop Virtualization Host - Role Services (322)"></feature>
+  <feature id="7" name="Print and Document Services - Role Services (7)"></feature>
+  <feature id="2" name="Web Server (IIS) - Role Services (2)"></feature>
+  <feature id="49" name="Message Queuing - Features (49)"></feature>
+  <feature id="16" name="Active Directory Certificate Services - Role Services (16)"></feature>
+  <feature id="14" name="Network Policy and Access Services - Role Services (14)"></feature>
+  <feature id="11" name="UDDI Services - Role Services (11)"></feature>
+  <feature id="41" name="Windows Process Activation Service - Role Services (41)"></feature>
+  <feature id="36" name=".NET Framework 3.5.1 - Features (36)"></feature>
+  <feature id="59" name="SNMP Services - Features (59)"></feature>
+  <feature id="19" name="Windows Deployment Services - Role (19)"></feature>
+  <feature id="17" name="Active Directory Rights Management Services - Role Services (17)"></feature>
+  <feature id="67" name="Remote Server Administration Tools (67)"></feature>
+  <feature id="39" name="Windows Server Backup - Features (39)"></feature>
+  <feature id="310" name="Ink and Handwriting Services - Features (310)"></feature>
+  <feature id="335" name="Background Intelligent Transfer Service (BITS) - Features (335)"></feature>
+  <feature id="340" name="Wow64 Support - Features (340)"></feature>
+  <feature id="447" name="User Interfaces and Infrastructure - Role Services (447)"></feature>
+  <feature id="404" name="Window Server Update Services - Features (404)"></feature>
+  <feature id="417" name="Windows PowerShell - Features (417)"></feature>
+  <feature id="418" name=".NET Framework 4.5 - Features (418)"></feature>
+  <feature id="468" name="Remote Access - Role (468)"></feature>
+  <feature id="481" name="File and Storage Services - Role (481)"></feature>
+
+  <!-- Individual Features -->
+  <feature id="1" name="Application Server"></feature>
+  <feature id="2" name="Web Server (IIS)"></feature>
+  <feature id="3" name="Streaming Media Services"></feature>
+  <feature id="5" name="Fax Server"></feature>
+  <feature id="6" name="File and iSCSI Services"></feature>
+  <feature id="7" name="Print and Document Services"></feature>
+  <feature id="8" name="Active Directory Federation Services"></feature>
+  <feature id="9" name="Active Directory Lightweight Directory Services"></feature>
+  <feature id="10" name="Active Directory Domain Services"></feature>
+  <feature id="11" name="UDDI Services"></feature>
+  <feature id="12" name="DHCP Server"></feature>
+  <feature id="13" name="DNS Server"></feature>
+  <feature id="14" name="Network Policy and Access Services"></feature>
+  <feature id="16" name="Active Directory Certificate Services"></feature>
+  <feature id="17" name="Active Directory Rights Management Services"></feature>
+  <feature id="18" name="Remote Desktop Services"></feature>
+  <feature id="19" name="Windows Deployment Services"></feature>
+  <feature id="20" name="Hyper-V"></feature>
+  <feature id="21" name="Windows Server Update Services"></feature>
+  <feature id="33" name="Failover Clustering"></feature>
+  <feature id="34" name="Network Load Balancing"></feature>
+  <feature id="36" name=".NET Framework 3.5.1 Features"></feature>
+  <feature id="37" name="Windows System Resource Manager"></feature>
+  <feature id="38" name="Wireless LAN Service"></feature>
+  <feature id="39" name="Windows Server Backup Features"></feature>
+  <feature id="40" name="WINS Server"></feature>
+  <feature id="41" name="Windows Process Activation Service"></feature>
+  <feature id="42" name="Remote Assistance"></feature>
+  <feature id="43" name="Simple TCP/IP Services"></feature>
+  <feature id="44" name="Telnet Client"></feature>
+  <feature id="45" name="Telnet Server"></feature>
+  <feature id="46" name="Subsystem For Unix-based Applications"></feature>
+  <feature id="47" name="RPC Over HTTP Proxy"></feature>
+  <feature id="48" name="SMTP Server"></feature>
+  <feature id="49" name="Message Queuing"></feature>
+  <feature id="51" name="Windows Internal Database"></feature>
+  <feature id="52" name="Storage Manager For SANs"></feature>
+  <feature id="53" name="LPR Port Monitor"></feature>
+  <feature id="55" name="Internet Storage Name Server"></feature>
+  <feature id="57" name="Multipath I/O"></feature>
+  <feature id="58" name="TFTP Client"></feature>
+  <feature id="59" name="SNMP Services"></feature>
+  <feature id="60" name="Removable Storage Manager"></feature>
+  <feature id="61" name="BitLocker Drive Encryption"></feature>
+  <feature id="62" name="Services For Network File System"></feature>
+  <feature id="63" name="Internet Printing Client"></feature>
+  <feature id="64" name="Peer Name Resolution Protocol"></feature>
+  <feature id="65" name="Connection Manager Administration Kit"></feature>
+  <feature id="66" name="Windows PowerShell"></feature>
+  <feature id="67" name="Remote Server Administration Tools"></feature>
+  <feature id="68" name="Quality Windows Audio Video Experience"></feature>
+  <feature id="69" name="Group Policy Management"></feature>
+  <feature id="71" name="Indexing Service"></feature>
+  <feature id="72" name="File Server Resource Manager (FSRM)"></feature>
+  <feature id="73" name="Remote Differential Compression"></feature>
+  <feature id="310" name="Ink and Handwriting Services"></feature>
+  <feature id="320" name="Windows Server Migration Tools"></feature>
+  <feature id="321" name="WinRM IIS Extension"></feature>
+  <feature id="324" name="BranchCache"></feature>
+  <feature id="334" name="DirectAccess Management Console"></feature>
+  <feature id="335" name="Background Intelligent Transfer Service (BITS)"></feature>
+  <feature id="338" name="XPS Viewer"></feature>
+  <feature id="339" name="Windows Biometric Framework"></feature>
+  <feature id="340" name="WoW64 Support"></feature>
+  <feature id="351" name="Windows PowerShell Integrated Scripting Environment (ISE)"></feature>
+  <feature id="352" name="Windows TIFF IFilter"></feature>
+  <feature id="404" name="Window Server Update Services"></feature>
+  <feature id="409" name="IP Address Management (IPAM) Server"></feature>
+  <feature id="417" name="Windows PowerShell"></feature>
+  <feature id="418" name=".NET Framework 4.5"></feature>
+  <feature id="432" name="Windows Search Service"></feature>
+  <feature id="438" name="Client for NFS"></feature>
+  <feature id="441" name="BitLocker Network Unlock"></feature>
+  <feature id="442" name="Management OData IIS Extension"></feature>
+  <feature id="450" name=".NET Framework 4.5 Advanced Services"></feature>
+  <feature id="466" name=".NET Framework 4.5 Features"></feature>
+  <feature id="468" name="Remote Access"></feature>
+  <feature id="477" name="User Interfaces and Infrastructure"></feature>
+  <feature id="478" name="Graphical Management Tools and Infrastructure"></feature>
+  <feature id="481" name="File and Storage Services"></feature>
+  <feature id="485" name="Windows Server Essentials Experience"></feature>
+  <feature id="488" name="Direct Play"></feature>
+  <feature id="100" name="Distributed File System"></feature>
+  <feature id="101" name="DFS Namespace"></feature>
+  <feature id="102" name="DFS Replication"></feature>
+  <feature id="103" name="File Replication Service"></feature>
+  <feature id="104" name="File Server Resource Manager (FSRM)"></feature>
+  <feature id="105" name="Services For Network File System"></feature>
+  <feature id="106" name="Single Instance Storage"></feature>
+  <feature id="107" name="Windows Search Service"></feature>
+  <feature id="108" name="Indexing Service"></feature>
+  <feature id="255" name="File Server"></feature>
+  <feature id="350" name="BranchCache for Network Files"></feature>
+  <feature id="431" name="Server for NFS"></feature>
+  <feature id="434" name="File Server VSS Agent Service"></feature>
+  <feature id="435" name="iSCSI Target Server"></feature>
+  <feature id="436" name="Data Deduplication"></feature>
+  <feature id="437" name="iSCSI Target Storage Provider (VDS and VSS hardware providers)"></feature>
+  <feature id="486" name="Work Folders"></feature>
+  <feature id="110" name="Active Directory Domain Controller"></feature>
+  <feature id="111" name="Identity Management For Unix"></feature>
+  <feature id="112" name="Server For Network Information Services"></feature>
+  <feature id="113" name="Password Synchronization"></feature>
+  <feature id="294" name="Remote Server Administration Tools"></feature>
+  <feature id="120" name="Windows Media Server"></feature>
+  <feature id="121" name="Web-based Administration"></feature>
+  <feature id="122" name="Logging Agent"></feature>
+  <feature id="125" name="Active Directory Federation Services"></feature>
+  <feature id="126" name="Federation Service Policy"></feature>
+  <feature id="127" name="AD FS Web Agents"></feature>
+  <feature id="128" name="Claims-aware Agent"></feature>
+  <feature id="129" name="Windows Token-based Agent"></feature>
+  <feature id="130" name="Remote Desktop Session Host"></feature>
+  <feature id="131" name="Remote Desktop Licensing"></feature>
+  <feature id="132" name="Remote Desktop Gateway"></feature>
+  <feature id="133" name="Remote Desktop Connection Broker"></feature>
+  <feature id="134" name="Remote Desktop Web Access"></feature>
+  <feature id="322" name="Remote Desktop Virtualization Host"></feature>
+  <feature id="325" name="Core Services"></feature>
+  <feature id="327" name="Remote Desktop Virtual Graphics"></feature>
+  <feature id="135" name="Print Server"></feature>
+  <feature id="136" name="Internet Printing"></feature>
+  <feature id="137" name="LPD Print Service"></feature>
+  <feature id="328" name="Distributed Scan Server"></feature>
+  <feature id="140" name="Web Server"></feature>
+  <feature id="141" name="Common HTTP Features"></feature>
+  <feature id="142" name="Static Content"></feature>
+  <feature id="143" name="Default Document"></feature>
+  <feature id="144" name="Directory Browse"></feature>
+  <feature id="145" name="HTTP Errors"></feature>
+  <feature id="146" name="HTTP Redirection"></feature>
+  <feature id="147" name="Application Development"></feature>
+  <feature id="148" name="ASP.NET"></feature>
+  <feature id="149" name=".NET Extensibility"></feature>
+  <feature id="150" name="ASP"></feature>
+  <feature id="151" name="CGI"></feature>
+  <feature id="152" name="ISAPI Extensions"></feature>
+  <feature id="153" name="ISAPI Filters"></feature>
+  <feature id="154" name="Server Side Includes"></feature>
+  <feature id="155" name="Health And Diagnostics"></feature>
+  <feature id="156" name="HTTP Logging"></feature>
+  <feature id="157" name="Logging Tools"></feature>
+  <feature id="158" name="Request Monitor"></feature>
+  <feature id="159" name="Tracing"></feature>
+  <feature id="160" name="Custom Logging"></feature>
+  <feature id="161" name="ODBC Logging"></feature>
+  <feature id="162" name="Security"></feature>
+  <feature id="163" name="Basic Authentication"></feature>
+  <feature id="164" name="Windows Authentication"></feature>
+  <feature id="165" name="Digest Authentication"></feature>
+  <feature id="166" name="Client Certificate Mapping Authentication"></feature>
+  <feature id="167" name="IIS Client Certificate Mapping Authentication"></feature>
+  <feature id="168" name="URL Authorization"></feature>
+  <feature id="169" name="Request Filtering"></feature>
+  <feature id="170" name="IP And Domain Restrictions"></feature>
+  <feature id="171" name="Performance"></feature>
+  <feature id="172" name="Static Content Compression"></feature>
+  <feature id="173" name="Dynamic Content Compression"></feature>
+  <feature id="174" name="Management Tools"></feature>
+  <feature id="175" name="IIS Management Console"></feature>
+  <feature id="176" name="IIS Management Scripts And Tools"></feature>
+  <feature id="177" name="Management Service"></feature>
+  <feature id="178" name="IIS 6 Management Compatibility"></feature>
+  <feature id="179" name="IIS 6 Metabase Compatibility"></feature>
+  <feature id="180" name="IIS 6 WMI Compatibility"></feature>
+  <feature id="181" name="IIS 6 Scripting Tools"></feature>
+  <feature id="182" name="IIS 6 Management Console"></feature>
+  <feature id="183" name="FTP Publishing Service"></feature>
+  <feature id="184" name="FTP Server"></feature>
+  <feature id="185" name="FTP Management Console"></feature>
+  <feature id="314" name="WebDAV Publishing"></feature>
+  <feature id="316" name="FTP Service"></feature>
+  <feature id="317" name="FTP Extensibility"></feature>
+  <feature id="336" name="IIS Hostable Web Core"></feature>
+  <feature id="413" name="ASP.NET 4.5"></feature>
+  <feature id="414" name=".NET Extensibility 4.5"></feature>
+  <feature id="445" name="appialization"></feature>
+  <feature id="446" name="Centralized SSL Certificate Support"></feature>
+  <feature id="447" name="WebSocket Protocol"></feature>
+  <feature id="190" name="Message Queuing Services"></feature>
+  <feature id="191" name="Message Queuing Server"></feature>
+  <feature id="192" name="Directory Service Integration"></feature>
+  <feature id="193" name="Message Queuing Triggers"></feature>
+  <feature id="194" name="HTTP Support"></feature>
+  <feature id="195" name="Routing Service"></feature>
+  <feature id="196" name="Windows 2000 Client Support"></feature>
+  <feature id="197" name="Message Queuing DCOM Proxy"></feature>
+  <feature id="228" name="Multicasting Support"></feature>
+  <feature id="200" name="Certification Authority"></feature>
+  <feature id="201" name="Certification Authority Web Enrollment"></feature>
+  <feature id="202" name="Online Responder"></feature>
+  <feature id="204" name="Network Device Enrollment Service"></feature>
+  <feature id="318" name="Certificate Enrollment Web Service"></feature>
+  <feature id="319" name="Certificate Enrollment Policy Web Service"></feature>
+  <feature id="205" name="Network Policy Server"></feature>
+  <feature id="206" name="VPN"></feature>
+  <feature id="207" name="Remote Access Services"></feature>
+  <feature id="208" name="Routing"></feature>
+  <feature id="210" name="Health Registration Authority"></feature>
+  <feature id="250" name="Host Credential Authorization Protocol"></feature>
+  <feature id="215" name="UDDI Services Web Application"></feature>
+  <feature id="216" name="UDDI Services Database"></feature>
+  <feature id="217" name="Configuration API"></feature>
+  <feature id="218" name=".NET Environment"></feature>
+  <feature id="219" name="Process Model"></feature>
+  <feature id="220" name=".NET Framework 3.5.1"></feature>
+  <feature id="221" name="WCF Activation"></feature>
+  <feature id="222" name="HTTP Activation"></feature>
+  <feature id="223" name="Non-HTTP Activation"></feature>
+  <feature id="227" name="XPS Viewer"></feature>
+  <feature id="224" name="SNMP Service"></feature>
+  <feature id="225" name="SNMP WMI Provider"></feature>
+  <feature id="230" name=".NET Framework 3.5.1"></feature>
+  <feature id="231" name="Web Server (IIS) Support"></feature>
+  <feature id="232" name="COM+ Network Access"></feature>
+  <feature id="233" name="TCP Port Sharing"></feature>
+  <feature id="234" name="Windows Process Activation Service Support"></feature>
+  <feature id="235" name="HTTP Activation"></feature>
+  <feature id="236" name="Message Queuing Activation"></feature>
+  <feature id="237" name="TCP Activation"></feature>
+  <feature id="238" name="Named Pipes Activation"></feature>
+  <feature id="239" name="Distributed Transactions"></feature>
+  <feature id="240" name="Incoming Remote Transactions"></feature>
+  <feature id="241" name="Outgoing Remote Transactions"></feature>
+  <feature id="242" name="WS-Automatic Transactions"></feature>
+  <feature id="353" name="Application Server Extensions for .NET 4.0"></feature>
+  <feature id="251" name="Deployment Server"></feature>
+  <feature id="252" name="Transport Server"></feature>
+  <feature id="253" name="Active Directory Rights Management Server"></feature>
+  <feature id="254" name="Identity Federation Support"></feature>
+  <feature id="256" name="Role Administration Tools"></feature>
+  <feature id="257" name="AD DS Tools"></feature>
+  <feature id="258" name="AD LDS Snap-Ins and Command-Line Tools"></feature>
+  <feature id="259" name="Active Directory Certificate Services Tools"></feature>
+  <feature id="260" name="Network Policy and Access Services"></feature>
+  <feature id="261" name="Print and Document Services Tools"></feature>
+  <feature id="262" name="Active Directory Rights Management Services"></feature>
+  <feature id="263" name="Remote Desktop Services Tools"></feature>
+  <feature id="264" name="Windows Deployment Services Tools"></feature>
+  <feature id="265" name="Feature Administration Tools"></feature>
+  <feature id="266" name="BitLocker Drive Encryption Tools"></feature>
+  <feature id="267" name="BITS Server Extensions Tools"></feature>
+  <feature id="268" name="Failover Clustering Tools"></feature>
+  <feature id="269" name="Network Load Balancing Tools"></feature>
+  <feature id="270" name="SMTP Server Tools"></feature>
+  <feature id="273" name="DNS Server Tools"></feature>
+  <feature id="277" name="File Services Tools"></feature>
+  <feature id="278" name="Distributed File System Tools"></feature>
+  <feature id="279" name="File Server Resource Manager Tools"></feature>
+  <feature id="280" name="Services For Network File System Tools"></feature>
+  <feature id="281" name="Web Server (IIS) Tools"></feature>
+  <feature id="284" name="Remote Desktop Session Host Tools"></feature>
+  <feature id="285" name="Remote Desktop Gateway Tools"></feature>
+  <feature id="286" name="Remote Desktop Licensing Tools"></feature>
+  <feature id="288" name="Fax Server Tools"></feature>
+  <feature id="290" name="WINS Server Tools"></feature>
+  <feature id="291" name="UDDI Services Tools"></feature>
+  <feature id="292" name="Certification Authority Tools"></feature>
+  <feature id="293" name="Online Responder Tools"></feature>
+  <feature id="297" name="Server for NIS Tools"></feature>
+  <feature id="299" name="AD DS Snap-Ins and Command-Line Tools"></feature>
+  <feature id="300" name="Active Directory Administrative Center"></feature>
+  <feature id="301" name="Hyper-V Tools"></feature>
+  <feature id="323" name="BitLocker Recovery Password Viewer"></feature>
+  <feature id="326" name="BitLocker Drive Encryption Administration Utilities"></feature>
+  <feature id="329" name="AD DS and AD LDS Tools"></feature>
+  <feature id="330" name="Active Directory Administrative Center"></feature>
+  <feature id="331" name="Active Directory module for Windows PowerShell"></feature>
+  <feature id="337" name="Remote Desktop Connection Broker Tools"></feature>
+  <feature id="410" name="IP Address Management (IPAM) Client"></feature>
+  <feature id="450" name="Hyper-V Module for Windows PowerShell"></feature>
+  <feature id="462" name="Active Directory Rights Management Services Tools"></feature>
+  <feature id="465" name="Share and Storage Management Tool"></feature>
+  <feature id="471" name="Remote Access Management Tools"></feature>
+  <feature id="472" name="Remote Access module for Windows PowerShell"></feature>
+  <feature id="473" name="Remote Access GUI and Command-Line Tools"></feature>
+  <feature id="474" name="Windows Server Update Services Tools"></feature>
+  <feature id="476" name="Remote Desktop Licensing Diagnoser Tools"></feature>
+  <feature id="479" name="SNMP Tools"></feature>
+  <feature id="480" name="Volume Activation Tools"></feature>
+  <feature id="296" name="Windows Server Backup"></feature>
+  <feature id="297" name="Command Line Tools"></feature>
+  <feature id="311" name="Ink Support"></feature>
+  <feature id="312" name="Handwriting Recognition"></feature>
+  <feature id="54" name="IIS Server Extension"></feature>
+  <feature id="332" name="Compact Server"></feature>
+  <feature id="341" name="WoW64"></feature>
+  <feature id="342" name="WoW64 for .NET Framework 2.0 and Windows PowerShell"></feature>
+  <feature id="343" name="WoW64 for .NET Framework 2.0"></feature>
+  <feature id="344" name="WoW64 for PowerShell"></feature>
+  <feature id="345" name="WoW64 for .NET Framework 3.0 and 3.5"></feature>
+  <feature id="346" name="WoW64 for Print Services"></feature>
+  <feature id="347" name="WoW64 for Failover Clustering"></feature>
+  <feature id="348" name="WoW64 for Input Method Editor"></feature>
+  <feature id="349" name="WoW64 for Subsystem for UNIX-based Applications"></feature>
+  <feature id="35" name="Desktop Experience"></feature>
+  <feature id="99" name="Server Graphical Shell"></feature>
+  <feature id="405" name="API and PowerShell cmdlets"></feature>
+  <feature id="406" name="SQL Server Connectivity"></feature>
+  <feature id="407" name="WSUS Services"></feature>
+  <feature id="408" name="User Interface Management Console"></feature>
+  <feature id="449" name="WID Connectivity"></feature>
+  <feature id="411" name="Windows PowerShell 2.0 Engine"></feature>
+  <feature id="412" name="Windows PowerShell 3.0"></feature>
+  <feature id="448" name="Windows PowerShell Web Access"></feature>
+  <feature id="1000" name="Windows PowerShell Desired State Configuration Service"></feature>
+  <feature id="419" name=".NET Framework 4.5 Extended"></feature>
+  <feature id="420" name="WCF Services"></feature>
+  <feature id="421" name="HTTP Activation"></feature>
+  <feature id="422" name="Message Queuing (MSMQ) Activation"></feature>
+  <feature id="423" name="Named Pipe Activation"></feature>
+  <feature id="424" name="TCP Activation"></feature>
+  <feature id="425" name="TCP Port Sharing"></feature>
+  <feature id="429" name="ASP.NET 4.5"></feature>
+  <feature id="469" name="DirectAccess and VPN (RAS)"></feature>
+  <feature id="470" name="Routing"></feature>
+  <feature id="482" name="Storage Services"></feature>
+  <feature id="484" name="Failover Cluster Management Tools"></feature>
+
+</WindowsFeatures>

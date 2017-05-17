@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- XML Comment -->
+<!-- XML Declaration -->
+
+
+<!-- XML Parent Tag-->
+<ScriptAnswers>
+
+  <!-- XML Child Tag-->
+  <ports port="21" name="FTP"></ports>
+  
+  <!-- XML Sibling Tags-->
+  <ports port="25" name="SMTP"></ports>
+  <ports port="53" name="DNS"></ports>
+  <ports port="80" name="HTTP"></ports>
+  <ports port="443" name="HTTPS"></ports>
+
+<!-- XML Parent Closing Tag-->
+</ScriptAnswers>
